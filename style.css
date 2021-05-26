@@ -8,9 +8,67 @@
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    background-color: white;
 }
 h1{
     font-family: 'Fredericka the Great', cursive;
     color: #1f5b25;
     text-align: center;
+}
+
+.kave:hover{
+    box-shadow: 0 0 5px #1f5b25;
+    cursor: pointer;
+}
+
+body{
+    background-color: #fbefdb;
+}
+
+nav{
+    background-color: #1f5b25;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav a{
+    color: gainsboro;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 1.5em;
+}
+
+nav img{
+    width: 40px;
+    height: 40px;
+}
+
+.banner{
+    background-image: url(img/banner.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer{
+    background-color: #1f5b25;
+    color: white;
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+}
+
+footer li{
+    list-style-type: none;
 }
