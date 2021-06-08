@@ -8,4 +8,4 @@
 - Freepik: https://www.freepik.com/
 - Flaticon: https://www.flaticon.com/
 
-:joy:
+:flushed:
